@@ -1,0 +1,129 @@
+body {
+  background-image: url(imagenes/Fondo_Cubista.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img {
+  margin: 5px;
+}
+.contenedor {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+
+  border-style: solid;
+  margin: 2px;
+  padding: 2px;
+  border: 1px;
+}
+.encabezado {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-flow: wrap;
+  border: 1px solid black;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.intEncab {
+  margin: 5px;
+  background-color: yellowgreen;
+  width: 30%;
+  height: 50px;
+  border: 2px solid black;
+}
+.centro {
+  margin: 5px;
+  padding: 20px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.izquierda {
+  margin: 5px;
+  padding: 20px;
+  background-color: orange;
+  width: 30%;
+  border: 1px solid black;
+}
+
+.derecha {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+  margin: 5px;
+  padding: 20px;
+  background-color: lightseagreen;
+  width: 60%;
+  border: 1px solid black;
+}
+#pie {
+  margin: 5px;
+  padding: 20px;
+  background-color: rgb(235, 235, 107);
+  width: 100%;
+  border: 1px solid black;
+  height: 50px;
+}
+
+#Imag_Picasso {
+  width: 200px;
+}
+
+#Imag_Avignon {
+  width: 230px;
+}
+
+#Imag_Guernica {
+  width: 500px;
+}
+
+#Imag_Braque {
+  width: 200px;
+  justify-content: center;
+}
+
+#Imag_Violin_Y_Paleta {
+  width: 150px;
+  justify-content: center;
+}
+
+#Imag_Juan_Gris {
+  width: 200px;
+  align-items: center;
+}
+
+.final {
+  text-align: right;
+}
+
+.subrayado {
+  text-decoration: underline black;
+}
+.inclinada {
+  font-style: italic;
+}
+
+.supe {
+  background-color: rgb(225, 235, 245);
+}
+.med {
+  background-color: rgb(213, 215, 218);
+}
+.inf {
+  background-color: rgb(183, 182, 185);
+}
+h1,
+h2 {
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  text-decoration: underline red;
+  color: red;
+}
